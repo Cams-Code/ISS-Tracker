@@ -7,8 +7,8 @@ MY_EMAIL = os.environ.get("MY_EMAIL")
 MY_PASS = os.environ.get("MY_PASS")
 
 # my longitude/latitude
-MY_LAT = os.environ.get("MY_LAT")
-MY_LONG = os.environ.get("MY_LONG")
+MY_LAT = float(os.environ.get("MY_LAT"))
+MY_LONG = float(os.environ.get("MY_LONG"))
 
 parameters = {
     "lat": MY_LAT,
